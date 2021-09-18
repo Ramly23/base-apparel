@@ -89,7 +89,7 @@ body {
 
 .input {
     padding: 14px 180px 14px 15px;
-    border-radius: 32px 0px 0px 32px;
+    border-radius: 32px;
     border: 1px solid var(--Red);
     outline: none;
 }
