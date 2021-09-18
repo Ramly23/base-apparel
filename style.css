@@ -88,10 +88,16 @@ body {
 }
 
 .input {
-    padding: 14px 180px 14px 15px;
+    padding: 15px 180px 15px 15px;
     border-radius: 32px;
     border: 1px solid var(--Red);
     outline: none;
+    background: transparent;
+}
+
+input::placeholder {
+    color: var(--Red);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .button {
@@ -100,12 +106,12 @@ body {
 
 .btn {
     position: absolute;
-    padding: 11.5px 38px;
+    padding: 12.6px 38px;
     border-radius: 32px;
     background: var(--SecondGradient);
     border: none;
     bottom: 0px;
-    left: 300px;
+    left: 290px;
     z-index: 10;
     box-shadow: 0px 0px 18px 1px #f4aaab82;
 }
